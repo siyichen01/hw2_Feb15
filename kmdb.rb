@@ -118,9 +118,7 @@
 # 3. in terminal:
 # rails db:migrate
 
-
-
-puts "Movies: #{Movie.all.count}"
+puts "Movie: #{Movie.all.count}"
 puts "Studios: #{Studio.all.count}"
 puts "Actors: #{Actor.all.count}"
 puts "Roles: #{Role.all.count}"
